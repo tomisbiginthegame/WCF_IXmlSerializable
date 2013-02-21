@@ -35,7 +35,7 @@ namespace WCF_IXmlSerializable
             schemaSet.XmlResolver = new XmlUrlResolver();
             schemaSet.Add(schema);
 
-            return new XmlQualifiedName("TestClass", "www.test.com");
+            return new XmlQualifiedName("TEST_CLASS", "www.test.com");
         }
 
         void IXmlSerializable.ReadXml(System.Xml.XmlReader reader)
