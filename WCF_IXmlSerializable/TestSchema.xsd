@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="www.test.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="www.test.com">
+	<xs:element name="TEST_CLASS">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="TEST">
+					<xs:complexType>
+						<xs:attribute name="TYPE"/>
+						<xs:attribute name="DURATION"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
